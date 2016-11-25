@@ -24,3 +24,8 @@ We can now fire a new container based on this image:
 $ sudo docker run -d -p 8090:8080 dockerfile-jdk-tomcat
 ```
 After few seconds, open `http://<host>:8090` to see the welcome page.
+
+
+--AFTER THAT
+
+网速很重要，先去FROM镜像，再去RUN一堆下载更新操作，很耗时间。
